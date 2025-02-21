@@ -19,7 +19,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: url('images/Foto R2.jpg') no-repeat;
+            background: url('https://cdn6.f-cdn.com/contestentries/1030409/25006549/5925da92acd8f_thumb900.jpg') no-repeat;
             background-size: cover;
             background-position: center;
         }
@@ -78,7 +78,7 @@
         .btn {
             width: 100%;
             padding: 12px;
-            background: linear-gradient(45deg, #ff0011, #ff0073);
+            background: linear-gradient(45deg, #007bff, #0056b3);
             border: none;
             border-radius: 25px;
             color: white;
@@ -88,7 +88,7 @@
         }
         
         .btn:hover {
-            background: linear-gradient(45deg, #ffffff, #eb443b);
+            background: linear-gradient(45deg, #0056b3, #003d7a);
         }
         
         .register-link {
@@ -132,8 +132,6 @@
     <script>
         document.getElementById("loginForm").addEventListener("submit", function(event) {
             event.preventDefault();
-            
-            // Simulasi loading
             document.querySelector(".btn").textContent = "Logging in...";
             setTimeout(() => {
                 window.location.href = "Hal1.html";
